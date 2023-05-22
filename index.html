@@ -4,15 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Con nuestros productos de limpieza, podrás eliminar hasta las manchas más difíciles y dejar un aroma fresco y agradable.">
+    <meta name="keywords" content="Limpieza, productos de limpieza, tienda, productos">
     <link rel="stylesheet" href="/style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script>
-    $(window).on("load", function(){
-    $(".loader").fadeOut();
-    })
-    </script>
-    <title>Super Clean</title>
+    <script src="/script.js"></script>
+    <title>Limpex - Productos De Limpieza</title>
 </head>
 <body class="bg-gray-950">
         <div class="text-center loader bg-slate-950 fixed w-screen h-screen z-20 flex items-center justify-center">
@@ -30,10 +28,11 @@
             </div>  
         </header>
         <main >
-            <section class="w-full h-screen p-5 bg-slate-950 flex justify-center items-center img-bg">
-                <div class="font-bold text-white max-w-xl">
-                    <h2 class="text-3xl text-center mb-5 md:text-5xl">la suciedad se apodera de tu espacio?</h2>
-                    <p class="text-md text-gray-200 text-center md:text-xl"> Con nuestros productos de limpieza, podrás eliminar hasta las manchas más difíciles y dejar un aroma fresco y agradable.</p>
+            <section class="w-full h-screen bg-slate-950 flex justify-center items-center overflow-hidden">
+                <video src="media/bg_Banner.mp4" autoplay loop muted class="sticky top-0 blur brightness-50 h-full object-cover object-center"></video>
+                <div class="font-bold text-white max-w-xl absolute">
+                    <h2 class="text-3xl text-center mb-5 md:text-5xl">dirt takes over your space?</h2>
+                    <p class="text-md text-gray-200 text-center md:text-xl">With our cleaning products, you can remove even the most difficult stains and leave a fresh and pleasant aroma.</p>
                 </div>
         </section>
         <section class="p-5">
@@ -121,18 +120,8 @@
             </div>
           </footer>
 </body>
+
 <style>
-    .img-bg{
-        background-image: linear-gradient(
-            0deg,
-           rgba(0,0,0,0.8),
-           rgba(0,0,0,0.8)
-        ) 
-        ,url(https://images.pexels.com/photos/4098779/pexels-photo-4098779.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
 
     *{
         font-family: ff-tisa-sans-web-pro, sans-serif;
